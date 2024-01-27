@@ -111,9 +111,10 @@ function HomeDelivery() {
                 
                 <div className="text-neutral-800 mt-[15px] text-2xl font-semibold font-Lato h-[50px] w-[478px]">15% OFF FOR NEW SUBSCRIBERS</div>
                 <div className="w-[533px] text-neutral-800 mb-[30px] text-lg font-medium font-Lato">A Peet's subscription gives you free shipping and access to discounts on all of your coffee purchases. Plus, new subscribers get 15% off their first order using code NEWSUB15. Copy Code</div>
-                <div className="w-[260px] h-[50px] bg-yellow-700 rounded-[5px] flex justify-center items-center  ">
-            <div className="text-white text-sm font-semibold font-['Lato'] ">SHOP NOW</div>
-            </div>
+
+            <button className="w-[260px] h-[50px] bg-yellow-700 rounded-[5px] flex justify-center items-center mb-4 border-none focus:outline-none hover:bg-yellow-800">
+             <div className="text-white text-sm font-semibold font-Lato ">CHOOSE A SUBSCRIPTION</div>
+         </button>
                 <div className="text-neutral-500 mt-[10px] mb-[10px] text-xl font-medium font-Lato">Frequent Brewer</div>
                 <div className="text-neutral-500 mb-[15px] text-xl font-medium font-Lato">Single Origin Series</div>
                 <div className="text-neutral-800 mb-[10px] text-xl font-medium font-Lato">Small Batch Series</div>

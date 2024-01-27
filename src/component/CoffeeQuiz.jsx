@@ -9,9 +9,10 @@ function CoffeeQuiz() {
         <img src={quizImg} className="w-[345px] h-[227px]" />
         <div className="text-right pr-[150px]">
           <div className="text-neutral-800 mr-[100px] text-lg font-bold font-Lato mb-4">Coffee Match Quiz</div>
-          <div className="w-[260px] h-[50px] bg-yellow-700 rounded-[5px] flex justify-center items-center mb-4">
-            <div className="text-white text-sm font-semibold font-Lato">SHOP NOW</div>
-          </div>
+          
+          <button className="w-[260px] h-[50px] bg-yellow-700 rounded-[5px] flex justify-center items-center mb-4 border-none focus:outline-none hover:bg-yellow-800">
+             <div className="text-white text-sm font-semibold font-Lato ">VIEW RECOMMENDATIONS</div>
+         </button>
           <div className="text-neutral-800 text-[13px] font-medium font-Lato flex items-center">
             <span>TAKE THE FULL QUIZ</span>
             <FaArrowRight className="w-4 h-5 ml-1" />

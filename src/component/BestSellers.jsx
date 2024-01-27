@@ -8,23 +8,18 @@ import ActivImg1 from './images/23SUM-Asset-18-HP-Carousel-Header-Desktop-2164x5
 import { FreeMode, Pagination } from "swiper/modules";
 
 import { RxArrowTopRight } from "react-icons/rx";
-import { ServiceData } from "./constants";
+import { ServiceData } from "./constant02";
 
-const ActiveSlider = () => {
+function BestSellers() {
   return (
-
-
     <>
-<div className="flex flex-col  mb-10 pt-10">
-  <div className="flex justify-center gap-60 w-500 mb-4">
-    <div className="text-neutral-800 text-3xl ml-10 font-semibold font-['Lato'] leading-[42px]"> From the Coffeebar<br/>OUR FEATURED MENU</div>
-    <div className="w-[580px] text-neutral-800 pt-3 text-lg font-medium font-['Lato']">Bold and cold for summer, three refreshing drinks to beat the heat: Baridi Cold Brew, The Black Tie, and our Cold Brew Oat Latte.</div>
+        <div className="flex flex-col  mb-10 pt-10">
+  <div className="flex justify-center gap-60 w-500 ">
+    <div className="text-neutral-800 text-3xl ml-10 mt-4 font-semibold font-['Lato'] leading-[42px]"> BEST SELLERS</div>
+    <div className="w-[580px] text-neutral-800 pt-3 text-lg font-medium font-['Lato']">The coffees our customers love best. From dark to light, intense to bright, there's always a new cup worth experiencing.</div>
   </div>
 </div>
-
-  <div className="flex justify-center">
-    <img src={ActivImg1} className="w-[1180px] h-[350px] mb-[30px]  " />
-  </div>
+<hr className="mw-[1080px] h-[0px] border border-neutral-800 border-opacity-30 ml-40 mr-40"/>
   <div className="flex items-center justify-center flex-col pl-20 h-[600px] bg-[#ffffff]">
     <Swiper
       breakpoints={{
@@ -52,26 +47,28 @@ const ActiveSlider = () => {
               style={{ backgroundImage: `url(${item.backgroundImage})` }}
             />
             <div className="absolute inset-0 bg-black opacity-10 group-hover:opacity-50" />
-            <div className="relative flex flex-col gap-3">
-              {/* <h1 className="text-xl lg:text-2xl">{item.title} </h1> */}
+            <div className=" flex flex-col gap-3 absolute bottom-5   h-[35px] w-full">
+
+            <h1 className="text-xl absolute bottom-[40px]  lg:text-[22px]">{item.title} </h1>
+            <p className="absolute bottom-[5px]  w-[250px] h-[35px] lg:text-[15px]  ">{item.content} </p>
+            <hr className="w-[225px] absolute bottom-[10px] border border-neutral-800 border-opacity-30  "/>
             </div>
-            <p className="absolute bottom-5   h-[35px]lg:text-[18px] mt-20 ">{item.content} </p>
+            
           </div>
-          
+         
         </SwiperSlide>
         
       ))}
       
     </Swiper>
     <button className="w-[260px] h-[50px] bg-yellow-700 rounded-[5px] flex justify-center items-center border-none focus:outline-none hover:bg-yellow-800">
-  <div className="text-white text-sm font-semibold font-['Lato']">VIEW ALL SEASONAL BEVERAGES</div>
+  <div className="text-white text-sm font-semibold font-['Lato']">VIEW ALL BEST SELLERS</div>
 </button>
 
 
   </div>
-</>
+    </>
+  )
+}
 
-  );
-};
-
-export default ActiveSlider;
+export default BestSellers

@@ -1,28 +1,28 @@
 
   
-  import SpaceCity1 from "../images/Rectangle 26.png";
-  import SpaceCity2 from "../images/Rectangle 27.png";
-  import SpaceCity3 from "../images/Rectangle 27.png";
-  import SpaceCity4 from "../images/Rectangle 29.png";
+  import Coffee1 from "../images/Rectangle 26.jpg";
+  import Coffee2 from "../images/Rectangle 27.jpg";
+  import Coffee3 from "../images/Rectangle 28.jpg";
+  import Coffee4 from "../images/Rectangle 29.jpg";
   export const ServiceData = [
     {
       
       content: "THE BLACK TIE",
-      backgroundImage: SpaceCity1,
+      backgroundImage: Coffee1,
     },
     {
       
       content: "COLD BREW OAT LATTE",
-      backgroundImage: SpaceCity2,
+      backgroundImage: Coffee2,
     },
     {
     
       content: "ICED BLACK TEA LEMONADE.",
-      backgroundImage: SpaceCity3,
+      backgroundImage: Coffee3,
     },
     {
     
         content: "ICED GREEN TEA LEMONADE.",
-        backgroundImage: SpaceCity4,
+        backgroundImage: Coffee4,
       },
   ];
