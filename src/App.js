@@ -5,6 +5,7 @@ import Footer from './component/Footer'
 import Catagory from './component/Catagory'
 import HomeDelivery from './component/HomeDelivery'
 import CoffeeQuiz from './component/CoffeeQuiz'
+import FeaturedMenu from './component/FeaturedMenu'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
     <Catagory/>
     <HomeDelivery/>
     <CoffeeQuiz/>
+    <FeaturedMenu/>
     <Footer/>
     </>
   )

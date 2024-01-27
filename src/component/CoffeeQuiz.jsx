@@ -4,7 +4,7 @@ import { FaArrowRight } from "react-icons/fa";
 
 function CoffeeQuiz() {
   return (
-    <div className="flex items-center justify-center mb-20 h-[300px]">
+    <div className="flex items-center justify-center mb-40 pt-20 h-[300px]">
       <div className="w-full h-[429px] bg-gradient-to-b from-amber-100 to-stone-100 flex items-center justify-between px-20 pl-[200px]">
         <img src={quizImg} className="w-[345px] h-[227px]" />
         <div className="text-right pr-[150px]">

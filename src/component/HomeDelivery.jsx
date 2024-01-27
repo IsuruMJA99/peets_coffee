@@ -70,9 +70,9 @@ import { FaArrowRight } from "react-icons/fa";
 
 function HomeDelivery() {
   return (
-    <div className='my-10'>
+    <div className='my-10 '>
       {/* First Section */}
-      <div className="relative w-[1280px] h-[7px] left-0 top-[30px]">
+      <div className="relative w-[1280px] h-[7px] left-20 top-[30px]">
         <div className="absolute left-[290px] top-0 text-neutral-800 text-3xl font-semibold font-Lato">
           ENJOY FREE HOME DELIVERY, SUBSCRIBE AND SAVE
         </div>
