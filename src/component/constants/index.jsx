@@ -1,30 +1,28 @@
 
   
-  import SpaceCity1 from "../images/Misscindy-Giant-Teddy-Bear-Plush-Stuffed-Animals-for-Girlfriend-or-Kids-47-inch_-_White_.jpg";
-  import SpaceCity5 from "../images/Rectangle 12.png";
-  import SpaceCity6 from "../images/Rectangle 12.png";
-  import SpaceCity7 from "../images/Rectangle 12.png";
-  import SpaceCity8 from "../images/Rectangle 12.png";
-  import SpaceCity9 from "../images/Rectangle 12.png";
-  
+  import SpaceCity1 from "../images/Rectangle 26.png";
+  import SpaceCity2 from "../images/Rectangle 27.png";
+  import SpaceCity3 from "../images/Rectangle 27.png";
+  import SpaceCity4 from "../images/Rectangle 29.png";
   export const ServiceData = [
     {
       
-      title: "Development",
-      content: "Lorem ipsum dolor sit /amet, consectetur adipiscing elit.",
-      backgroundImage: SpaceCity9,
-    },
-    {
-      
-      title: "Branding",
-      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      content: "THE BLACK TIE",
       backgroundImage: SpaceCity1,
     },
     {
-    
-      title: "Design",
-      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      backgroundImage: SpaceCity6,
+      
+      content: "COLD BREW OAT LATTE",
+      backgroundImage: SpaceCity2,
     },
+    {
     
+      content: "ICED BLACK TEA LEMONADE.",
+      backgroundImage: SpaceCity3,
+    },
+    {
+    
+        content: "ICED GREEN TEA LEMONADE.",
+        backgroundImage: SpaceCity4,
+      },
   ];
