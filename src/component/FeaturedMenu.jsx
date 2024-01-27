@@ -24,7 +24,7 @@ const ActiveSlider = () => {
 </div>
 
   <div className="flex justify-center">
-    <img src={ActivImg1} className="w-[1180px] h-[350px] mb-[30px]  " />
+    <img src={ActivImg1} className="w-[1180px] h-[350px] mb-[60px]  " />
   </div>
   <div className="flex items-center justify-center flex-col pl-20 h-[600px] bg-[#ffffff]">
     <Swiper
@@ -47,25 +47,24 @@ const ActiveSlider = () => {
     >
       {ServiceData.map((item) => (
         <SwiperSlide key={item.title}>
-          <div className="flex flex-col gap-6 mb-20 group relative shadow-lg text-black rounded-xl px-6 py-8 h-[250px] w-[215px] lg:h-[400px] lg:w-[275px] overflow-hidden cursor-pointer">
-            <div
-              className="absolute inset-0 bg-cover mb-20 bg-center" alt='no image'
-              style={{ backgroundImage: `url(${item.backgroundImage})` }}
-            />
-            <div className="absolute inset-0 bg-black opacity-10 group-hover:opacity-50" />
-            <div className="relative flex flex-col gap-3">
-              {/* <h1 className="text-xl lg:text-2xl">{item.title} </h1> */}
-            </div>
-            <p className="absolute bottom-5   h-[35px]lg:text-[18px] mt-20 ">{item.content} </p>
-          </div>
-          
+            <div className="flex flex-col gap-6 mb-20 group relative text-black rounded-xl px-6 py-8 h-[250px] w-[215px] lg:h-[400px] lg:w-[275px] overflow-hidden cursor-pointer border border-neutral-200 shadow-md transition duration-300 ease-in-out hover:shadow-xl">
+  <div
+    className="absolute inset-0 bg-cover mb-20 bg-center" alt='no image'
+    style={{ backgroundImage: `url(${item.backgroundImage})` }}
+  />
+  <div className="flex flex-col gap-3 absolute bottom-5 h-[35px] w-full">
+    <h1 className="text-xl absolute bottom-[40px] lg:text-[22px]">{item.title} </h1>
+    <p className="absolute bottom-[5px] w-[250px] h-[35px] lg:text-[15px]">{item.content} </p>
+    <hr className="w-[225px] absolute bottom-[10px] border border-neutral-800 border-opacity-30" />
+  </div>
+</div>
         </SwiperSlide>
         
       ))}
-      
+      <br/><br/>
     </Swiper>
     <button className="w-[260px] h-[50px] bg-yellow-700 rounded-[5px] flex justify-center items-center border-none focus:outline-none hover:bg-yellow-800">
-  <div className="text-white text-sm font-semibold font-['Lato']">VIEW ALL SEASONAL BEVERAGES</div>
+  <div className="text-white text-sm font-semibold font-Lato">VIEW ALL SEASONAL BEVERAGES</div>
 </button>
 
 <div className="text-center text-neutral-800 mt-5 text-[15px] font-medium font- Lato">FIND A COFFEEBAR <CiLocationOn  className="w-4 h-5  pb-[5px] relative flex-col justify-start items-start inline-flex " /></div>

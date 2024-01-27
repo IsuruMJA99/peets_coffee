@@ -126,7 +126,11 @@ function HomeDelivery() {
           </div>
         </div>
       </div>
-    </div>
+      <div className="flex flex-col items-center justify-center">
+        <div className="text-neutral-800 text-3xl font-semibold font-Lato">ENJOY THE FRESHEST PEET'S YOU CAN GET</div><br/>
+        <div className="w-[703px] text-center text-neutral-800 text-lg font-medium font-Lato">Coffee that goes from the roaster to the brewed cup in the shortest amount of time is the freshest, best tasting coffee—period.</div><br/>
+      </div>
+ </div>
   );
 }
 

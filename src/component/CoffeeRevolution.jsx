@@ -44,7 +44,7 @@ function CoffeeRevolution() {
         </div>
         <div className="mr-20">
           <button className="w-[260px] h-[50px] bg-yellow-700 rounded-[5px] flex justify-center items-center border-none focus:outline-none hover:bg-yellow-800">
-            <div className="text-white text-sm font-semibold font-['Lato'] ">
+            <div className="text-white text-sm font-semibold font-Lato ">
               SIGN UP
             </div>
           </button>

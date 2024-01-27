@@ -33,7 +33,7 @@ function Page() {
             <div className="text-yellow-700 text-4xl font-semibold font-['Lato']">SUBSCRIBERS GET IT FIRST</div><br/>
             <div className="w-[858px] text-center text-white text-lg font-medium font-['Lato']">Seasonal Essentials Coffee Subscribers, get ready to brew! Vine & Walnut is roasting now. Pro tip: any subscriber can add on to their next shipment. Not a subscriber? Sign up today.</div><br/>
              <button className="w-[260px] h-[50px] bg-yellow-700 rounded-[5px] flex justify-center items-center mb-4 border-none focus:outline-none hover:bg-yellow-800">
-             <div className="text-white text-sm font-semibold font-['Lato'] ">SHOP NOW</div>
+             <div className="text-white text-sm font-semibold font-Lato ">SHOP NOW</div>
              </button>
           </div>
         </div>
