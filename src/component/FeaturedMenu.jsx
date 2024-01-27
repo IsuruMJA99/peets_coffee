@@ -3,6 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/free-mode";
+import { CiLocationOn } from "react-icons/ci";
 import ActivImg1 from './images/23SUM-Asset-18-HP-Carousel-Header-Desktop-2164x592 1.png'
 
 import { FreeMode, Pagination } from "swiper/modules";
@@ -67,6 +68,9 @@ const ActiveSlider = () => {
   <div className="text-white text-sm font-semibold font-['Lato']">VIEW ALL SEASONAL BEVERAGES</div>
 </button>
 
+<div className="text-center text-neutral-800 mt-5 text-[15px] font-medium font- Lato">FIND A COFFEEBAR <CiLocationOn  className="w-4 h-5  pb-[5px] relative flex-col justify-start items-start inline-flex " /></div>
+<hr className="w-[1225px] border border-neutral-800 border-opacity-30 mt-10 mb-10"/>
+            
 
   </div>
 </>

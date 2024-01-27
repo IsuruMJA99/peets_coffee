@@ -55,13 +55,13 @@ function Navbar() {
                         <span>Log in</span>
                     </div>
                     <div className="relative inline-block">
-                        <FaSearch className="w-4 h-4 absolute left-0 top-0" />
+                        <FaSearch className="w-4 h-4 absolute left-0 mt-[-7px]" />
                     </div>
                     <div className="relative inline-block">
-                        <CiLocationOn className="w-4 h-4 absolute left-0 top-0" />
+                        <CiLocationOn className="w-4 h-4 absolute left-0 mt-[-7px]" />
                     </div>
                     <div className="relative inline-block">
-                        <IoCartOutline className="w-4 h-4 absolute left-0 top-0" />
+                        <IoCartOutline className="w-4 h-4 absolute left-0 mt-[-7px]" />
                     </div>
                         <div className='md:hidden'>
                             <button onClick={toggleMenu} className='text-white focus:outline-none focus:text-gray-300'>

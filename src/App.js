@@ -7,6 +7,7 @@ import HomeDelivery from './component/HomeDelivery'
 import CoffeeQuiz from './component/CoffeeQuiz'
 import FeaturedMenu from './component/FeaturedMenu'
 import BestSellers from './component/BestSellers'
+import CoffeeRevolution from './component/CoffeeRevolution'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
     <HomeDelivery/>
     <CoffeeQuiz/>
     <FeaturedMenu/>
+    <CoffeeRevolution/>
     <Footer/>
     </>
   )

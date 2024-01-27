@@ -16,13 +16,14 @@
       backgroundImage: Coffee2,
     },
     {
+      title: "ZENITH SUMMER BLEND",
+      content: "Hazelnut, Caramel, Dried Fruit",
+      backgroundImage: Coffee4,
+    },
+    {
       title: "COSTA RICA AURORA",
       content: "Lemon Bar, Black Cherry, Molasses.",
       backgroundImage: Coffee3,
     },
-    {
-        title: "ZENITH SUMMER BLEND",
-        content: "Hazelnut, Caramel, Dried Fruit",
-        backgroundImage: Coffee4,
-      },
+    
   ];
